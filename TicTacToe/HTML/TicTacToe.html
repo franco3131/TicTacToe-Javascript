@@ -1,0 +1,83 @@
+
+<html>
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/5.5.0/css/foundation.css">
+<script type="text/javascript" src="../JS/TicTacToe.js"></script>
+<link rel="stylesheet" href="../CSS/TicTacToe.css">
+</head>
+  <div class="background-option">
+  <div class="row">
+    <div id="diagonal1"></div>
+    <div id="diagonal2"></div>
+    <div id="vertical1"></div>
+    <div id="vertical2"></div>
+    <div id="vertical3"></div>
+    <div id="row1"></div>
+    <div id="row2"></div>
+    <div id="row3"></div>
+    <a href="#">
+      <div class="box first"><span class="line" id="box1"> </span></div>
+    </a>
+
+
+    <a href="#">
+      <div class="box second"><span class="line" id="box2"></span></div>
+    </a>
+    <a href="#">
+      <div class="box third"> <span class="line" id="box3"></span></div>
+  </div>
+  </a>
+
+
+  <div class="row">
+
+    <a href="#">
+      <div class="box fourth"><span class="line" id="box4"></span></div>
+    </a>
+
+
+    <a href="#">
+      <div class="box fifth"><span class="line" id="box5"></span></div>
+    </a>
+    <a href="#">
+      <div class="box sixth"> <span class="line" id="box6"></span></div>
+
+    </a>
+  </div>
+  <div class="row">
+
+    <a href="#">
+      <div class="box seventh"><span class="line" id="box7"></span></div>
+    </a>
+
+
+    <a href="#">
+      <div class="box eigth"><span class="line" id="box8"></span></div>
+    </a>
+    <a href="#">
+      <div class="box ninth"> <span class="line" id="box9"></span></div>
+  </div>
+  </a>
+
+</div>
+
+<div class="container">
+  <div id="modal">
+    Which player are you?
+    <button class="x player">x</button>
+    <button class="o player">o</button>
+
+  </div>
+</div>
+
+<div id="gameOverText"></div>
+
+<div class="losetext"> Lost Count</div>
+<span class="loseCount"></span>
+<div class="tietext"> Tie Count</div>
+<span class="tieCount"></span>
+
+</html>
